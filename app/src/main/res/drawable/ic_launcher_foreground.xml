@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Nexa Hexagonal Core Node Layer -->
+    <path
+        android:pathData="M54,26 L76,38 L76,64 L54,76 L32,64 L32,38 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#38BDF8"
+        android:strokeAlpha="0.6"
+        android:fillColor="#151A30" />
+    
+    <!-- Stylized Nexa 'N' Synaptic Neural Bridge -->
+    <path
+        android:pathData="M39,66 L39,36 L43,36 L65,66 L69,66 L69,36 L63,36 L63,60 L45,36 L39,36 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="39"
+                android:startY="36"
+                android:endX="69"
+                android:endY="66"
+                android:type="linear">
+                <item android:color="#38BDF8" android:offset="0.0" />
+                <item android:color="#818CF8" android:offset="0.5" />
+                <item android:color="#C084FC" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Spark / Brain Synapse Nodes -->
+    <path
+        android:pathData="M54,49 A4,4 0 1,0 54,57 A4,4 0 1,0 54,49"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M54,23 A2.5,2.5 0 1,0 54,28 A2.5,2.5 0 1,0 54,23"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M78,37 A2.5,2.5 0 1,0 78,42 A2.5,2.5 0 1,0 78,37"
+        android:fillColor="#818CF8" />
+    <path
+        android:pathData="M78,65 A2.5,2.5 0 1,0 78,70 A2.5,2.5 0 1,0 78,65"
+        android:fillColor="#C084FC" />
+    <path
+        android:pathData="M54,78 A2.5,2.5 0 1,0 54,83 A2.5,2.5 0 1,0 54,78"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M30,65 A2.5,2.5 0 1,0 30,70 A2.5,2.5 0 1,0 30,65"
+        android:fillColor="#818CF8" />
+    <path
+        android:pathData="M30,37 A2.5,2.5 0 1,0 30,42 A2.5,2.5 0 1,0 30,37"
+        android:fillColor="#C084FC" />
+</vector>

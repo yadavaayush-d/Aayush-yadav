@@ -1,0 +1,6 @@
+{
+  "name": "Nexa AI",
+  "description": "Unified AI platform powering specialized workspaces for study, content creation, document analysis, and language.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
